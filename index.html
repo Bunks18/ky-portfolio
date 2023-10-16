@@ -21,6 +21,24 @@
         max-width:42em;margin:15 auto;
     
         }
+
+        #avatar {
+    /* This image is 687 wide by 1024 tall, similar to your aspect ratio */
+    background-image: url('./bananas.jpg');
+    
+    /* make a square container */
+    width: 150px;
+    height: 150px;
+
+    /* fill the container, preserving aspect ratio, and cropping to fit */
+    background-size: cover;
+
+    /* center the image vertically and horizontally */
+    background-position: top center;
+
+    /* round the edges to a circle with border radius 1/2 container size */
+    border-radius: 50%;
+}
     </style>
         
     <title>Kyla Scanlon</title>
@@ -30,6 +48,7 @@
     <body>
     <br id="maincontent" style="margin-top:70px">
       <h2>Kyla Scanlon</h2>
+      <div id="avatar"></div>
         <p>I am a <a href="https://kyla.substack.com/">writer</a>, <a href="https://www.tiktok.com/@kylascan">video</a> <a href="https://www.youtube.com/channel/UC-J8PybPmYl6VJbu8sCRdHQ">creator</a>, and <a href="https://open.spotify.com/show/6ziXCBAojpLDKtexx8bxds?si=426440be2d414dc0&nd=1">podcaster</a>.</p>
         
         <h3>Some things about me:</h3>
